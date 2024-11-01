@@ -11,5 +11,10 @@ public class AppController {
         return "test";
     }
 
+    @GetMapping("/test/cicd")
+    public String cicdTest(){
+        return "SUCCESS";
+    }
+
 
 }
