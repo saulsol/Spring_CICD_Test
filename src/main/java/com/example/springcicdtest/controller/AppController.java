@@ -8,7 +8,7 @@ public class AppController {
 
     @GetMapping("/test")
     public String home(){
-        return "test";
+        return "test1";
     }
 
     @GetMapping("/test/cicd")
