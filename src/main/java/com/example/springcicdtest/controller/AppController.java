@@ -19,7 +19,7 @@ public class AppController {
 
     @GetMapping("/health")
     public String healthCheck() {
-        return "healthCheck";
+        return "healthCheck"; //
     }
 
 
